@@ -810,7 +810,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 
-/* RAÇAS */
+/* RACAS */
 
 .tituloblog .full-screen .content .img{
   margin-top: 120px;
@@ -898,13 +898,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: white;
   font-size: 15px;
 }
+
 .cardrac .conteudobx{
   position: relative;
-  padding: 18px;
+  padding: 20px;
   padding-top: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   z-index: 1;
   font-size: 12px;
@@ -1063,8 +1065,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: white;
   float: left;
   font-size: 16px;
-  margin: 6px;
-  margin-left: 50px;
+  margin: 4px;
+  margin-left: 40px;
 }
 
 .flip-card {
