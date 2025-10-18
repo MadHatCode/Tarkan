@@ -1,8 +1,6 @@
-# Tarkan
-
 <h1 align="center">
     <br>
-    <img src="images/LOGO.png" alt="Tarkan" width="50%">
+    <img src="icon/LOGO.png" alt="Tarkan" width="50%">
     <br><br>
 </h1>
 
