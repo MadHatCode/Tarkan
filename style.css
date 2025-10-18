@@ -55,9 +55,7 @@ h5{
 }
 
 
-
 /* video background */
-
 
 .full-screen{
   width: 100%;
@@ -108,6 +106,7 @@ h5{
   }
 }
 
+
 /*     Apresentação    */
 
 .apresentacao{
@@ -119,7 +118,8 @@ h5{
 }
 
 
-/* HEADER */
+/* HEADER + carrousel */
+
 .header{
   display: flex;
   justify-content: space-between;
@@ -188,10 +188,6 @@ text-decoration: none;
   width: 50%;
   transform: translateX(-100%);
 }
-
-
-
-/* carrousel */
 
 .imgslide{
 max-width: 450px;
@@ -292,6 +288,7 @@ color: #fff;
 
 
 /* CARDS */
+
 .bodycard{
   display: flex;
   justify-content: center;
@@ -379,7 +376,8 @@ color: #fff;
   }
 }
 
-/*     ROLEPLAY    */
+
+/*  Tarkan INFO */
 
 .roleplay{
   width: 100%;
@@ -390,7 +388,6 @@ color: #fff;
   overflow: hidden;
   margin-bottom: -50px;
 }
-
 
 .oqroleplay{
   padding-top: 50px;
@@ -408,7 +405,6 @@ color: #fff;
   clip-path: polygon(0 0, 74% 3%, 100% 0, 100% 100%, 26% 96%, 0 100%);
 }
 
-
 .fundorole video{
   position: absolute;
   left: 0;
@@ -417,7 +413,6 @@ color: #fff;
   object-fit: cover;
   z-index: -1;
 }
-
 
 .conteudorole{
   display: block;
@@ -468,9 +463,9 @@ color: #fff;
   border-radius: 6px;
   transition: .3s linear;
 }
-/* mudar cor onde fica o texto nas imgs*/
+
 .post-content{
-  background-color: #193656;
+  background-color: #193656; /* mudar cor onde fica o texto nas imgs*/
   margin: 0 10px;
   padding: 20px;
   border-radius: 6px;
@@ -508,11 +503,8 @@ color: #fff;
   
 }
 
-/*Historia*/
 
-/*---------------*/
-/***** Zoe *****/
-/*---------------*/
+/*Historia*/
 
 figure.effect-zoe figcaption {
 	top: auto;
@@ -635,6 +627,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 
 /* Common style */
+
 .grid figure {
 	position: relative;
 	float: left;
@@ -709,8 +702,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	font-size: 68.5%;
 }
 
-
-
 .blogs-posts{
   width: min(1500px, 100%);
   padding: 80px;
@@ -730,9 +721,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   border-radius: 6px;
   transition: .3s linear;
 }
-/* mudar cor onde fica o texto nas imgs*/
+
 .posts-content{
-  background-color: #193656;
+  background-color: #193656; /* mudar cor onde fica o texto nas imgs*/
   margin: 0 10px;
   padding: 20px;
   border-radius: 6px;
@@ -771,65 +762,51 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 
+/* Footer */
 
-/* Rodape */
-
-
-.footer{
-	background-color: #0d1b2c;
-    width: 100%;
-	height: 150px;
-	float: left;
-	margin-top: 30px;
+.footer {
+  background-color: #0d1b2c;
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer p{
-  text-align: center;
+.footer-content {
+  display: flex;
+  align-items: center;       /* alinha logo e textos no meio vertical */
+  justify-content: center;
+  gap: 20px;                 /* espaço entre logo e texto */
+}
+
+.footer-logo {
+  width: 100px; /* Tamanho da logo */
+  height: auto;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;    /* empilha p e link */
+  align-items: flex-start;   /* textos alinhados à esquerda */
+  line-height: 2;
+}
+
+.footer-text p {
   color: #f7f6f1;
-  padding-top: 100px;
+  font-size: 1rem;
   margin: 0;
- 
 }
 
-.redes{
-	width: 250px;
-	height: 200px;
-	float: center;
-	position: absolute; 
-	margin-top: 40px;        
-  margin-left: 577px;	
-
+.footer .privacy-link {
+  color: #f7f6f1;
+  font-size: 0.8rem;  
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-.redes1{
-	width: 250px;
-	height: 200px;
-	float: center;
-	position: absolute; 
-	margin-top: 40px;        
-  margin-left: 577px;	
-
-}
-.redes {
-	position: absolute;
-	overflow: hidden;
-	width:130px;
-	float: center;
-	padding:5px;     
-}
-
-.redes img{
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-  transition: all 0.3s;	
-  width: 100px;  
-  height: 100px;
-} 
-
-.redes:hover img {
-	-moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+.footer .privacy-link:hover {
+  text-decoration: underline;
 }
 
 
@@ -845,7 +822,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   height: 300px;
   background-image: url("images/1.jpg");
   clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
-
 }
 
 .tituloblog h5{
@@ -886,7 +862,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transition: 0.5s;
 }
 
-
 .cardrac::after{
   content: '';
   position: absolute;
@@ -897,7 +872,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   padding-right: 0px;
   color:white;
 }
-
 
 .cardrac .imgbx{
   position: relative;
@@ -973,7 +947,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: white;
 }
 
-
 .cardrac h2{
   
   color: #cabe3d; /*nome das raças*/
@@ -988,7 +961,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   align-items: center;
   background-color: #ffffff0c;
   border-radius: 10px;
-  
 }
 
 .maisraças h4{
@@ -1275,7 +1247,6 @@ iframe{
   }
 }
 
-
 .classesgrid{
   border-radius: 10px;
   background-color: #ffffff0c;
@@ -1329,7 +1300,6 @@ iframe{
   transition: 0.5s;
 }
 
-
 .cardrac2::after{
   content: '';
   position: absolute;
@@ -1340,7 +1310,6 @@ iframe{
   padding-right: 0px;
   color:white;
 }
-
 
 .cardrac2 .imgbx{
   position: relative;
@@ -1379,6 +1348,7 @@ iframe{
 .cardrac2 .conteudobx p{
   color: rgb(255, 255, 255);
   font-size: 15px;
+  padding: 18px;
 }
 
 .cardrac2 .conteudobx .preço{
@@ -1411,7 +1381,6 @@ iframe{
 .cardrac2 ul li{
   color: white;
 }
-
 
 .cardrac2 h2{
   
