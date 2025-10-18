@@ -1,7 +1,6 @@
 <h1 align="center">
     <br>
-    <img src="images/LOGO.png" alt="Tarkan" width="50%">
-    <br><br>
+    <img src="images/MHC-NBG.png" alt="MDC" width="40%">
 </h1>
 
 <p align="center">Um site com finalidade de apresentar o conteúdo feito para o servidor Tarkan.</p>
@@ -16,8 +15,8 @@
 
 ## :dizzy: **Informações**
 
-Tarkan é o nome de um multiverso criado dentro do jogo Conan Exiles, em um servidor privado.
+Tarkan é o nome de um multiverso criado dentro do jogo Conan Exiles.
 
-Sua história é rica em fantasia e magia, dentro de um cenario medieval, você pode conferir em nosso [site](https://mhc.github.io/Tarkan).
+Sua história é rica em fantasia e magia, dentro de um cenario medieval, você pode conferir em nosso [site](https://madhatcode.github.io/Tarkan/).
 
-Entre em contato pelo nosso [Discord](https://discord.gg/GbEnCjtDMy) para obter mais detalhes sobre o que estamos construindo.
+Entre em contato pelo nosso [Discord](https://discord.gg/GbEnCjtDMy) para obter mais detalhes.
