@@ -3,7 +3,7 @@
     <img src="images/MHC-NBG.png" alt="MDC" width="40%">
 </h1>
 
-<p align="center">Um site com finalidade de apresentar o conteúdo feito para o servidor Tarkan.</p>
+<p align="center">Um dos primeiros sites criados, a sua finalidade era apresentar o conteúdo feito para o servidor Tarkan.</p>
 
 <p align="center">
     <a href="https://discord.gg/GbEnCjtDMy">
