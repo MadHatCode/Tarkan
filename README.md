@@ -3,7 +3,7 @@
     <img src="images/MHC-NBG.png" alt="MDC" width="40%">
 </h1>
 
-<p align="center">Um dos primeiros sites criados, a sua finalidade era apresentar o conteúdo feito para o servidor Tarkan.</p>
+<p align="center">Um dos primeiros sites criados, é um site desenvolvido para um servidor de Conan Exiles Roleplay. O projeto foi criado com uma identidade visual inspirada em fantasia medieval.</p>
 
 <p align="center">
     <a href="https://discord.gg/GbEnCjtDMy">
